@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.MIAMI{
+    min-height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+
+.MIAMI  header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 999;
+}
+
+.MIAMI video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.icon{
+    width: 60px;
+}
+
+.icon img{
+    width: 120%;
+}
+.toggle{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(-.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.toggle.active{
+    background: url(close.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.text{
+    position: relative;
+}
+
+.text h2{
+    font-family: 'Syncopate', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    line-height: 1em;
+    font-size: 6vw;
+}
+
+.text h1{
+    font-family: 'Syncopate', sans-serif;
+    color: black;
+    font-size: 15vw;
+    line-height: 1em;
+    letter-spacing: 0.7vw;
+}
+
+.text details summary{
+    font-family: 'Syncopate', sans-serif;
+    color: black;
+    font-size: 3vw;
+    line-height: 1em;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding: 10px 10px;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.text details summary:hover{
+    letter-spacing: 6px;
+}
+
+.catagory{
+    padding: 120px;
+}
+
+.catagory h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Syncopate', sans-serif;
+}
+
+.menu ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+}
+
+.menu  ul li{
+    margin-top: 20px;
+    display: inline;
+    margin-right: 150px;
+    margin: auto;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+.menu ul li a:hover{
+    color: blanchedalmond;
+}
+
+@media (max-width:991px) {
+    .MIAMI,.MIAMI header{
+        padding: 40px;
+    }
+}

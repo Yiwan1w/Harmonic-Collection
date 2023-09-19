@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meet in Miami</title>
+        <link rel="stylesheet" href="stylecopy.css">
+    </head>
+
+    <body>
+        <section class="MIAMI active">
+            <header>
+                <div class="icon">
+                    <img src="usland.jpg" alt="usland">
+                </div>
+                <div class="toggle active"></div>
+            </header>
+
+            <video src="miamibeachsunriseBG2.mp4"></video>
+
+            <div class="text">
+                <h2>2023 WINTER IN</h2>
+                <h1>MIAMI</h1>
+
+            </div>
+        </section>
+
+        <div class="menu">
+            <ul>
+                <li><a href="">FOOD</a></li>
+                <li><a href="">NATURE</a></li>
+                <li><a href="">NON-NATURE</a></li>
+                <li><a href="">OURS</a></li>
+            </ul>
+        </div>
+        
+        <script>
+            const menutoggle= document.querySelector('.toggle');
+            const MIAMI= document.querySelector('.MIAMI');
+
+            menutoggle.addEventListener('click',()=>{
+                menutoggle.classList.icon('active');
+                MIAMI.classList.icon('active');
+            })
+        </script>
+
+    </body>
+</html>
