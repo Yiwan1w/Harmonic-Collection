@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.topbar p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    z-index: -2;
+}
+
+.topbar header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	z-index: 999;
+}
+
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+	height: 7rem;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    padding: 40px 100px;
+}
+
+.navbar a img{
+    width: 80px;
+}
+
+.title{
+    color: rgb(24, 24, 24);
+    font-family: 'Syncopate', sans-serif;
+    position: relative;
+    z-index: -1;
+}
+
+.title h1{
+    font-size: 7vw;
+    line-height: 1em;
+}
+
+.title h2{
+    font-size: xx-large;
+    margin-top: 15px;
+}
+
+.title h3{
+    font-size: x-large;
+    letter-spacing: 0.2vw;
+    margin-top: 100px;
+}
+
+.guide p{
+    padding: 40px 100px;
+    font-family: 'Syncopate', sans-serif;
+    color: darkgrey;
+}
+
+.guide p a{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.guide p a:hover{
+    color: rgb(84, 84, 84);
+}
+
+
+.verticalmenu{
+	width: 25%;
+	position: sticky;
+	top: 150px;
+}
+.verticalmenu ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 100px;
+    background-color: white;
+    height: 100%;
+	position: sticky;
+	top: 9.375rem;
+}
+
+.verticalmenu ul li a{
+    display: block;
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.verticalmenu ul li a:hover{
+    color: rgb(168, 205, 253);
+}
+
+.verticalmenu ul li{
+    font-family: 'Syncopate', sans-serif;
+    font-size: large;
+    line-height: 2.5em;
+}
+
+.context{
+	margin-left: 25%;
+	width: 75%;
+    padding-top: 10px;
+    padding-right: 100px;
+	margin-top: -150px;
+}
+
+.text{
+    font-family: 'Syncopate', sans-serif;
+    font-size: medium;
+    color: rgb(84, 84, 84);
+}
+
+.text p{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.sun1{
+    display: flex;
+    flex: 20%;
+    padding: 5px;
+    width: 20%;
+}
+
+.sun2{
+    display: flex;
+    flex: 20%;
+    padding: 5px;
+}
+
+.moreinfo{
+    display: flex;
+    position: relative;
+}
+
+.text1{
+    font-family:'Syncopate', sans-serif;
+    padding-left: 40px;
+}
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.column{
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+@media (max-width:991px) {
+    .guide p,.topbar,.verticalmenu ul{
+        padding: 40px;
+    }
+}
+.f_r{
+	display: flex;
+	flex-direction: row;
+}
