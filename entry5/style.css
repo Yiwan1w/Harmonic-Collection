@@ -147,7 +147,12 @@
     display: flex;
     flex: 20%;
     padding: 5px;
-    width: 20%;
+}
+
+.sun1 img{
+    width: 25%;
+    height: auto;
+    padding-left: 10px;
 }
 
 .sun2{
@@ -156,6 +161,11 @@
     padding: 5px;
 }
 
+.sun2 img{
+    width: 25%;
+    height: auto;
+    padding-left: 10px;
+}
 .moreinfo{
     display: flex;
     position: relative;
@@ -174,6 +184,8 @@
 }
 
 .column{
+    width: 60px;
+    height: auto;
     -ms-flex: 25%;
     flex: 25%;
     max-width: 25%;
