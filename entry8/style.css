@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.topbar p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.topbar header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	z-index: 999;
+}
+
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+	height: 6rem;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    padding: 20px 100px;
+}
+
+.navbar a img{
+    width: 65px;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: optima;
+    position: relative;
+    z-index: -1;
+}
+
+.title h1{
+    font-size: 7vw;
+    line-height: 1em;
+}
+
+.title h2{
+    font-size: xx-large;
+    margin-top: 15px;
+}
+
+.title h3{
+    font-size: x-large;
+    letter-spacing: 0.1vw;
+    margin-top: 100px;
+}
+
+.review{
+    background-color: rgb(202, 217, 235);
+    border-radius:0px 0px 35px 35px; 
+    height: 90vh;
+}
+
+.review h4{
+    padding-top: 60px;
+    padding-bottom: 15px;
+    font-size: 3vw;
+    font-family: optima;
+    text-align: center;
+}
+
+.review h5{
+    padding-top: 10px;
+    padding-bottom: 35px;
+    font-size: 1vw;
+    font-family: optima;
+    text-align: center;
+}
+.pyq{
+    background-color:  white;
+    overflow: scroll;
+    margin: auto;
+    justify-items: center;
+    width: 270px;
+    height: 580px;
+    border: 8px solid;
+    border-radius: 35px; 
+}
+
+.top{
+    position: sticky;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    border-radius: 35px; 
+    height: 26px;
+    width: 40%;
+    background: black;
+    top: 0px;
+    overflow: hidden;
+   }
+
+.porfile{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.porfile img{
+    border-radius: 3px; 
+}
+.name{
+    line-height: 18px;
+    padding-left: 5px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imggroup1{
+    padding-top: 3px;
+    padding-right: 36px;
+    padding-left: 42px;
+    display: inline-block;
+}
+.row1 img, .row2 img, .row3 img{
+    width: 30%;
+    height: auto;
+}
+
+.note{
+    font-size: 0.001%;
+    padding-left: 42px;
+    color: grey;
+}
+
+.imggroup2 img{
+    padding-top: 3px;
+    padding-right: 40px;
+    padding-left: 42px;
+    display: flex;
+    width: 85%;
+    height: auto;
+}
+
+.imggroup3{
+    padding-top: 3px;
+    padding-right: 40px;
+    padding-left: 42px;
+    display: inline-block;
+}
+.imggroup3 img{
+    width: 77px;
+    height: auto;
+}
+
+.place{
+    font-size: 0.001%;
+    padding-left: 42px;
+    color: rgb(127, 171, 196);
+}
+
+
+.float{
+    display: flex;
+    position: relative;
+  }
+
+  .float p{
+    margin-left: 10px;
+  }
+
+
+  .slideshow-container {
+    max-width: 50%;
+    position: relative;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgb(127, 171, 196);
+  }
+  
+  .active, .dot:hover {
+    background-color: rgb(127, 171, 196);
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
