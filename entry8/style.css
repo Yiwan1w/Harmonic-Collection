@@ -179,55 +179,116 @@
     color: rgb(127, 171, 196);
 }
 
+.garden{
+    margin-top: 20px;
+    height: 90vh;
+    border-radius: 35px;
+    background-color: rgb(240, 240, 255);
+  }
 
-.float{
+  .garden h2{
+    font-family: optima;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 100;
+    padding-top: 150px;
+    padding-left: 488px;
+  }
+
+.garden h3{
+    font-family: optima;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 100;
+    padding-top: 205px;
+    padding-left: 1007px;
+ }
+
+.garden h4{
+    font-family: optima;
+    font-size: xx-large;
+    position: absolute;
+    z-index: 100;
+    padding-top: 350px;
+    padding-left: 965px;
+ }
+
+.garden p{
+    position: absolute;
+    z-index: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 400px;
+    padding-left: 900px;
+    padding-right: 155px;
+    text-align: right;
+    font-size: large;
+    line-height: 26px;
+ }
+.link1{
+    position: absolute;
+    z-index: 100;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    padding-left: 915px;
+    padding-right: 116px;
+    padding-top: 650px;
+    font-weight: 600;
+    font-family: optima;
+}
+.link1:hover{
+    color: rgb(109, 109, 149);
+}
+ .gallery{
+    padding-top: 65px;
+    padding-left: 100px;
     display: flex;
     position: relative;
   }
 
-  .float p{
+  .gallery p{
     margin-left: 10px;
   }
 
-
   .slideshow-container {
-    max-width: 50%;
+    width: 50%;
     position: relative;
+  }
+
+  .slideshow-container img{
+    border-radius: 35px;
   }
 
   .mySlides {
     display: none;
   }
 
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
   
-  .prev:hover, .next:hover {
-    background-color: rgb(127, 171, 196);
-  }
-  
-  .active, .dot:hover {
-    background-color: rgb(127, 171, 196);
-  }
-  
-  .fade {
+.fade {
     animation-name: fade;
     animation-duration: 1.5s;
   }
+
+.blueworld{
+    margin-top: 20px;
+    height: 90vh;
+    border-radius: 35px;
+    background-color: rgb(232, 245, 255);
+  }
+
+.blueworld h2{
+    font-family: optima;
+}
+.blueworld h4{
+    font-family: optima;
+}
+
+  @media (max-width:991px) {
+    .guide p,.topbar,.verticalmenu ul{
+        padding: 40px;
+    }
+}
+.f_r{
+	display: flex;
+	flex-direction: row;
+}
