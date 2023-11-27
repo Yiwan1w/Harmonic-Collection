@@ -21,7 +21,6 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
     z-index: -2;
 }
 
@@ -37,23 +36,24 @@
     background-color: white;
     position: fixed;
     top: 0;
-	height: 7rem;
+	height: 6rem;
     width: 100%;
 }
 
 .navbar a{
     float: left;
     display: block;
-    padding: 40px 100px;
+    padding: 20px 100px;
 }
 
 .navbar a img{
+    margin-top: 5px;
     width: 80px;
 }
 
 .title{
-    color: rgb(24, 24, 24);
-    font-family: 'Syncopate', sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: optima;
     position: relative;
     z-index: -1;
 }
@@ -66,11 +66,16 @@
 .title h2{
     font-size: xx-large;
     margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-family: optima;
 }
-
+.summary{
+    font-size: xx-large;
+    margin-top: 15px;
+}
 .title h3{
     font-size: x-large;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.1vw;
     margin-top: 100px;
 }
 
@@ -106,13 +111,16 @@
 }
 
 .verticalmenu ul li a{
+    margin-bottom: 14px;
+    font-size: larger;
+    font-family: optima;
     display: block;
     text-decoration: none;
     color: darkgrey;
 }
 
 .verticalmenu ul li a:hover{
-    color: rgb(168, 205, 253);
+    color:  #bce3ff;
 }
 
 .verticalmenu ul li{
@@ -132,7 +140,7 @@
 .text{
     font-family: 'Syncopate', sans-serif;
     font-size: medium;
-    color: rgb(84, 84, 84);
+    color: black;
 }
 
 .text p{
@@ -141,6 +149,10 @@
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
 }
 
 .sun1{
@@ -172,7 +184,10 @@
 }
 
 .text1{
-    font-family:'Syncopate', sans-serif;
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
     padding-left: 40px;
 }
 

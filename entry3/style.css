@@ -47,7 +47,8 @@
 }
 
 .navbar a img{
-    width: 65px;
+    margin-top: 5px;
+    width: 80px;
 }
 
 .title{
@@ -108,16 +109,20 @@
     height: 100%;
 	position: sticky;
 	top: 9.375rem;
+    
 }
 
 .verticalmenu ul li a{
+    margin-bottom: 14px;
+    font-size: larger;
+    font-family: optima;
     display: block;
     text-decoration: none;
     color: darkgrey;
 }
 
 .verticalmenu ul li a:hover{
-    color: blanchedalmond;
+    color: #bce3ff;
 }
 
 .verticalmenu ul li{
@@ -135,8 +140,12 @@
 }
 
 .text{
-    font-family: 'Syncopate', sans-serif;
-    color: rgb(84, 84, 84);
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+    font-family: optima;
+    color: black;
 }
 
 .text p{
