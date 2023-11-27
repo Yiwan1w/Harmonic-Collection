@@ -74,8 +74,11 @@
 }
 
 .review{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
     background-color: rgb(202, 217, 235);
-    border-radius:0px 0px 35px 35px; 
+    border-radius:35px; 
     height: 90vh;
 }
 
@@ -180,10 +183,10 @@
 }
 
 .garden{
-    margin-top: 20px;
+    margin-top: 100px;
     height: 90vh;
     border-radius: 35px;
-    background-color: rgb(240, 240, 255);
+
   }
 
   .garden h2{
@@ -192,7 +195,7 @@
     position: absolute;
     z-index: 100;
     padding-top: 150px;
-    padding-left: 488px;
+    padding-left: 518px;
   }
 
 .garden h3{
@@ -222,7 +225,10 @@
     padding-right: 155px;
     text-align: right;
     font-size: large;
-    line-height: 26px;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+    font-family: optima;
  }
 .link1{
     position: absolute;
@@ -237,7 +243,7 @@
     font-family: optima;
 }
 .link1:hover{
-    color: rgb(109, 109, 149);
+    color: #fbbaa8;
 }
  .gallery{
     padding-top: 65px;
@@ -282,6 +288,92 @@
 .blueworld h4{
     font-family: optima;
 }
+
+.sahara{
+    min-height: 85vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.sahara h4{
+    margin-top: 60px;
+    font-size: 3.5vw;
+    font-family: optima;
+    position: absolute;
+    margin-left: 34px;
+}
+.sahara h5{
+    font-family: optima;
+    font-size: 34px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 470px;
+    margin-right: 150px;
+    margin-left: 760px;
+}
+.sahara p{
+    font-family: optima;
+    position: absolute;
+    margin-right: 200px;
+    margin-top: 184px;
+    margin-left: 40px;
+    width: 35%;
+    font-size: medium;
+  line-height: 30px;
+  font-weight: 50;
+}
+.r1{
+    margin-left: 700px;
+    margin-top: 150px;
+    display: flex;
+    margin-bottom: 24px;
+}
+.r1 img{
+    width: 340px;
+    border-radius: 35px;
+    margin-right: 24px;
+}
+.r2{
+    display: flex;
+}
+.r2 img{
+    width: 340px;
+    border-radius: 35px;
+    margin-right: 24px;
+}
+
+
+
+.ending{
+    text-align: center;
+      height: 30vh;
+      background-color: #fbbaa8;
+      font-family: optima;
+      padding-top: 20px;
+    margin-top: 50px;
+  }
+  
+  .ending h5{
+      font-size: xx-large;
+      color: #fff;
+      padding-bottom: 10px;
+  }
+  
+  .ending a{
+      text-decoration: none;
+      color: #fff;
+      padding-bottom: 15px;
+      font-size: larger;
+  }
+  
+  .ending p{
+      padding-top: 30px;
+      color: #fff;
+  
+  }
+  
+  .ending p1{
+      color: #fff;
+  }
 
   @media (max-width:991px) {
     .guide p,.topbar,.verticalmenu ul{

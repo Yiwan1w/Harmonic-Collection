@@ -4,136 +4,314 @@
     padding: 0;
 }
 
-
-.MIAMI{
+.topbar{
     min-height: 100vh;
-    color: black;
     display: flex;
     align-items: center;
     padding: 100px;
 }
 
-
-.MIAMI  header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 40px 100px;
-    z-index: 999;
-}
-
-.MIAMI video{
+.topbar p{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    opacity: 0.8;
-}
-
-.icon{
-    width: 60px;
-}
-
-.icon img{
-    width: 120%;
-}
-
-.toggle{
-    position: relative;
-    width: 60px;
-    height: 60px;
-    background: url(-.png);
-    background-size: 40px;
-    background-repeat: no-repeat;
     background-position: center;
-    cursor: pointer;
-}
-
-.toggle.active{
-    background: url(close.png);
-    background-size: 40px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
+    background-size: cover;
+    z-index: -2;
 }
 
-.text{
+.topbar header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	z-index: 999;
+}
+
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+	height: 6rem;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    padding: 20px 100px;
+}
+
+.navbar a img{
+    width: 65px;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: optima;
     position: relative;
+    z-index: -1;
 }
 
-.text h2{
-    font-family: 'Syncopate', sans-serif;
-    color: black;
-    text-transform: uppercase;
+.title h1{
+    font-size: 7vw;
     line-height: 1em;
-    font-size: 6vw;
 }
 
-.text h1{
-    font-family: 'Syncopate', sans-serif;
-    color: black;
-    font-size: 15vw;
-    line-height: 1em;
-    letter-spacing: 0.7vw;
-}
-
-.text details summary{
-    font-family: 'Syncopate', sans-serif;
-    color: black;
-    font-size: 3vw;
-    line-height: 1em;
-    text-transform: uppercase;
-    display: inline-block;
-    background-color: blanchedalmond;
-    padding: 10px 10px;
-    margin-top: 10px;
-    transition: 0.2s;
-}
-
-.text details summary:hover{
-    letter-spacing: 6px;
-}
-
-.catagory{
-    padding: 120px;
-}
-
-.catagory h1{
-    text-align: center;
+.title h2{
     font-size: xx-large;
-    font-family:'Syncopate', sans-serif;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-family: optima;
+}
+.summary{
+    font-size: xx-large;
+    margin-top: 15px;
+}
+.title h3{
+    font-size: x-large;
+    letter-spacing: 0.1vw;
+    margin-top: 100px;
 }
 
-.menu ul{
-    margin-top: 30px;
-    list-style: none;
+.start{
+    min-height: 90vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.start h4{
+    margin-top: 150px;
+    margin-left: 30px;
+    font-size: 3vw;
+    font-family: optima;
+    position: absolute;
+}
+.start h5{
+    position: absolute;
+    font-family: optima;
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 24px;
+    margin-top: 230px;
+    margin-left: 30px;
+    width: 40%;
+}
+.start p{
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+    position: absolute;
+    width: 36%;
+    margin-left: 30px;
+    margin-top: 404px;
+}
+.start h6{
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 534px;
+}
+.tracks img{
+    position: absolute;
+    width:50px;
+    margin-top: 574px;
+    margin-left: 30px;
+}
+.tracks img:hover{
+    width: 60px;
+    transform: 0.4s;
+}
+
+.camera{
+    min-height: 90vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #bce3ff;
+    border-radius: 35px;
+}
+.camera h4{
+    font-size: 3vw;
+    font-family: optima;
+    position: absolute;
+    margin-top: 344px;
+    margin-left: 24px;
+}
+.camera a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    font-family: optima;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 434px;
+    margin-left: 24px;
+}
+.camera a:hover{
+    font-size: 50px;
+    transition: 0.4s;
+}
+.camera p{
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+    position: absolute;
+    width: 40%;
+    margin-left: 45%;
+    margin-top: 22%;
+}
+.me{
     display: flex;
 }
-
-.menu  ul li{
-    margin-top: 20px;
-    display: inline;
-    margin-right: 150px;
-    margin: auto;
+.me img{
+    width: 23%;
+    margin-right: 12px;
+    margin-left: 14px;
+    margin-top: 24px;
+}
+.place{
+    margin-top: 300px;
+    display: flex;
+}
+.place img{
+    width: 23%;
+    margin-right: 12px;
+    margin-left: 14px;
+    margin-top: 24px;
 }
 
-.menu ul li a{
+.firstrow{
+    margin-left: 730px;
+    margin-top: 100px;
+    display: flex;
+}
+.firstrow img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.secondrow{
+    margin-left: 730px;
+    display: flex;
+}
+.secondrow img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+
+.more{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.more h4{
+    margin-bottom: 34px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    font-size: 3vw;
+    font-family: optima;
+    text-align: center;
+}
+.twoimage{
+    display: flex;
+    align-items: center;
+    margin-right: 280px;
+    margin-left: 280px;
+}
+
+.twoimage img{
+    width: 400px;
+    margin-right: 44px;
+    opacity: 0.6;
+    z-index: 2;
+}
+.explorefood{
+    position: relative;
+}
+.explorefood a{
     text-decoration: none;
-    font-size: 24px;
     color: black;
+    font-family: optima;
+    font-size: xx-large;
+    font-weight: 500;
 }
+.explorefood a:hover{
+    font-size: 44px;
+    transition: 0.4s;
+}
+.explorescenery{
+    position: relative;
+}
+.explorescenery a{
+    text-decoration: none;
+    color: black;
+    font-family: optima;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.explorescenery a:hover{
+    font-size: 44px;
+    transition: 0.4s;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    z-index: 1;
+  }
 
-.menu ul li a:hover{
-    color: blanchedalmond;
-}
+
+
+
+.ending{
+    text-align: center;
+      height: 30vh;
+      background-color:  #bce3ff;
+      font-family: optima;
+      padding-top: 50px;
+    margin-top: 100px;
+  }
+  
+  .ending h5{
+      font-size: xx-large;
+      color: #fff;
+      padding-bottom: 10px;
+  }
+  
+  .ending a{
+      text-decoration: none;
+      color: #fff;
+      padding-bottom: 15px;
+      font-size: larger;
+  }
+  
+  .ending p{
+      padding-top: 30px;
+      color: #fff;
+  
+  }
+  
+  .ending p1{
+      color: #fff;
+  }
 
 @media (max-width:991px) {
-    .MIAMI,.MIAMI header{
+    .guide p,.topbar,.verticalmenu ul{
         padding: 40px;
     }
 }

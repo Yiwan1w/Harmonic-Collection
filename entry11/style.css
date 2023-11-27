@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.topbar p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.topbar header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	z-index: 999;
+}
+
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+	height: 6rem;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    padding: 20px 100px;
+}
+
+.navbar a img{
+    width: 65px;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: optima;
+    position: relative;
+    z-index: -1;
+}
+
+.title h1{
+    font-size: 7vw;
+    line-height: 1em;
+}
+
+.title h2{
+    font-size: xx-large;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-family: optima;
+}
+.summary{
+    font-size: xx-large;
+    margin-top: 15px;
+}
+.title h3{
+    font-size: x-large;
+    letter-spacing: 0.1vw;
+    margin-top: 100px;
+}
+
+.qdhsly{
+    min-height: 90vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.qdhsly h4{
+    margin-bottom: 34px;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    font-size: 3vw;
+    font-family: optima;
+    text-align: center;
+}
+.qdhsly h5{
+    font-family: optima;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.qdhsly p{
+    font-size: larger;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    font-family: optima;
+    text-align: center;
+}
+
+.qdhs{
+    display: flex;
+    align-items: center;
+    margin-right: 280px;
+    margin-left: 280px;
+}
+.qdhs img{
+    width: 400px;
+    height: auto;
+}
+.qdimg{
+    margin-right: 24px;
+}
+
+.qdhs img:hover{
+    width: 430px;
+    height: auto;
+    transition: 0.4s;
+}
+.a1{
+    background-color: bisque;
+    margin-right: 100px;
+    margin-left: 100px;
+    min-height: 77vh;
+    border-radius: 35px;
+    margin-bottom: 44px;
+}
+.arrival{
+    position: absolute;
+}
+.arrival h4{
+    font-family: optima;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.arrival img{
+    position: absolute;
+    width: 60%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 460px;
+}
+.texta1{
+    margin-top: 270px;
+    margin-bottom: 24px;
+}
+.texta1 p{
+    font-size: medium;
+    line-height: 30px;
+    width: 23%;
+    font-family: optima;
+    margin-left: 80px;
+}
+.link1{
+    text-decoration: none;
+    font-size: larger;
+    font-family: optima;
+    z-index: 1px;
+    color: black;
+    margin-left: 80px;
+}
+.link1:hover{
+    font-size: x-large;
+    transition: 0.1s;
+  }
+  
+
+.classtime{
+    padding-left: 130px;
+    padding-right: 100px;
+    padding-top: 80px;
+    min-height: 90vh;
+}
+.container {
+    position: relative;
+    width: 700px;
+  }
+  
+.mySlides {
+    display: none;
+  }
+  
+.cursor {
+    cursor: pointer;
+  }
+
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: bisque;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .caption-container {
+    text-align: center;
+    background-color:bisque;
+    padding: 2px 16px;
+    color: black;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+.classtimewhole{
+    display: flex;
+}
+.textclass{
+    width: 36%;
+    font-family: optima;
+    position: absolute;
+    margin-left: 730px;
+}
+.textclass h4{
+    margin-top: 90px;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 20px;
+}
+.textclass h5{
+    font-family: optima;
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 24px;
+}
+.textclass p{
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+}
+.afterclass{
+    display: flex;
+}
+.horizontalimg{
+    border-radius: 35px;
+    z-index: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.horizontalimg img{
+    display: inline-block;
+    width: 50%;
+}
+.aftertitle{
+    padding-left: 100px;
+    margin-top: 100px;
+    font-family: optima;
+    font-size: 3.5vw;
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+}
+
+
+.ending{
+    text-align: center;
+      height: 30vh;
+      background-color:  bisque;
+      font-family: optima;
+      padding-top: 50px;
+    margin-top: 100px;
+  }
+  
+  .ending h5{
+      font-size: xx-large;
+      color: #fff;
+      padding-bottom: 10px;
+  }
+  
+  .ending a{
+      text-decoration: none;
+      color: #fff;
+      padding-bottom: 15px;
+      font-size: larger;
+  }
+  
+  .ending p{
+      padding-top: 30px;
+      color: #fff;
+  
+  }
+  
+  .ending p1{
+      color: #fff;
+  }
+
+@media (max-width:991px) {
+    .guide p,.topbar,.verticalmenu ul{
+        padding: 40px;
+    }
+}
