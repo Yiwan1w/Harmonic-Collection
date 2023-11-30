@@ -1,0 +1,487 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.topbar p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.topbar header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	z-index: 999;
+}
+
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+	height: 6rem;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    padding: 20px 100px;
+}
+
+.navbar a img{
+    width: 65px;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: optima;
+    position: relative;
+    z-index: -1;
+}
+
+.title h1{
+    font-size: 7vw;
+    line-height: 1em;
+}
+
+.title h2{
+    font-size: xx-large;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-family: optima;
+}
+.summary{
+    font-size: xx-large;
+    margin-top: 15px;
+}
+.title h3{
+    font-size: x-large;
+    letter-spacing: 0.1vw;
+    margin-top: 100px;
+}
+
+.pupu{
+    min-height: 90vh;
+    padding-left: 100px;
+}
+.pupu h4{
+    margin-top: 90px;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 60px;
+    position: absolute;
+    right: 13%;
+}
+.pupu h5{
+    font-family: optima;
+    font-size: 40px;
+    font-weight: 300;
+    position: absolute;
+    right: 13%;
+    margin-top: 174px;
+}
+.pupu p{
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+    position: absolute;
+    right: 13%;
+    margin-top: 244px;
+    text-align: right;
+    width: 40%;
+}
+.pooh1{
+    left: 13%;
+    position: absolute;
+    width: 400px;
+    margin-top: 90px;
+}
+.pooh2{
+    position: absolute;
+    border-radius: 35px;
+    right: 13%;
+    width: 40%;
+    margin-top: 334px;
+}
+
+.float{
+    min-height: 90vh;
+    margin-top: 100px;
+}
+.moving img{
+    width: 22%;
+    height: 55%;
+    object-fit: cover;
+    border: 5px solid  #feafaf;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 20s;
+    z-index: 1;
+}
+@-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;    
+    }
+  }
+
+.moving2 img{
+    width: 35%;
+    border: 5px solid  #feafaf;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 27s;
+    z-index: 2;
+    margin-top: 400px;
+}
+@-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;    
+    }
+  }
+
+  .moving3 img{
+    width: 35%;
+    border: 5px solid  #feafaf;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 23s;
+    z-index: 3;
+    margin-top: 100px;
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;    
+    }
+  }
+
+.moving4 img{
+    width: 15%;
+    border: 5px solid  #feafaf;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 11s;
+    z-index: 4;
+    margin-top: 120px;
+}
+@-webkit-keyframes run {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;    
+    }
+  }
+
+  .moving5 img{
+    width: 16%;
+    border: 5px solid  #feafaf;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 14s;
+    z-index: 5;
+    margin-top: 441px;
+}
+@-webkit-keyframes run {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;    
+    }
+  }
+
+
+.moving6 img{
+    width: 16%;
+    border: 5px solid  #feafaf;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 12s;
+    z-index: 7;
+    margin-top: 201px;
+}
+@-webkit-keyframes run {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;    
+    }
+  }
+
+  .moving7 img{
+    width: 19%;
+    border: 5px solid  #feafaf;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 15s;
+    z-index: 6;
+    margin-top: 201px;
+}
+@-webkit-keyframes run {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;    
+    }
+  }
+
+  .moving8 img{
+    width: 19%;
+    border: 5px solid  #feafaf;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 10s;
+    z-index: 6;
+    margin-top: 201px;
+}
+@-webkit-keyframes run {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;    
+    }
+  }
+  .moving9 img{
+    width: 23%;
+    height: 23%;
+    object-fit: cover;
+    border: 5px solid  #feafaf;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 25s;
+    z-index: 6;
+    margin-top: 361px;
+}
+@-webkit-keyframes run {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 100%;    
+    }
+  }
+
+.highlight{
+    min-height: 90vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.highlight h4{
+    margin-top: 90px;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+
+
+.tobe{
+    min-height: 53vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.tobe h4{
+    margin-top: 90px;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.moredisney{
+    display: flex;
+    justify-content: space-between;
+}
+.orlando{
+  background-image: url(assets/parisdisney.jpg);
+  width: 330px;
+  height: 330px;
+  background-position: center;
+  background-size: cover;
+  transition: .3s ease-in-out;
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+.orlando:hover{
+  background-size: 230%;
+}
+.orlando h5{
+  text-align: center;
+  margin-top: 45%;
+  font-family: optima;
+  font-size: xx-large;
+  color: white;
+}
+.orlando h5:hover{
+  color: #feafaf;
+}
+.orlando a{
+  text-decoration: none;
+}
+.paris{
+    background-image: url(assets/parisdisney.jpg);
+    width: 330px;
+    height: 330px;
+    background-position: center;
+    background-size: cover;
+    transition: .3s ease-in-out;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+.paris:hover{
+    background-size: 230%;
+}
+.paris h5{
+    text-align: center;
+    margin-top: 50%;
+    font-family: optima;
+    font-size: xx-large;
+    color: white;
+}
+.tokyo{
+    text-align: center;
+    background-image: url(assets/tokyodisney.jpg);
+    width: 330px;
+    height: 330px;
+    background-position: center;
+    background-size: cover;
+    transition: .3s ease-in-out;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+.tokyo:hover{
+    background-size: 230%;
+}
+.tokyo h5{
+    text-align: center;
+    margin-top: 50%;
+    font-family: optima;
+    font-size: xx-large;
+    color: white;
+}
+.cali{
+    text-align: center;
+    background-image: url(assets/calidisney.jpg);
+    width: 330px;
+    height: 330px;
+    background-position: center;
+    background-size: cover;
+    transition: .3s ease-in-out;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+.cali:hover{
+    background-size: 180%;
+}
+.cali h5{
+    text-align: center;
+    margin-top: 50%;
+    font-family: optima;
+    font-size: xx-large;
+    color: white;
+}
+
+.ending{
+    text-align: center;
+      height: 30vh;
+      background-color:  #feafaf;
+      font-family: optima;
+      padding-top: 50px;
+    margin-top: 100px;
+  }
+  
+  .ending h5{
+      font-size: xx-large;
+      color: #fff;
+      padding-bottom: 10px;
+  }
+  
+  .ending a{
+      text-decoration: none;
+      color: #fff;
+      padding-bottom: 15px;
+      font-size: larger;
+  }
+  
+  .ending p{
+      padding-top: 30px;
+      color: #fff;
+  
+  }
+  
+  .ending p1{
+      color: #fff;
+  }
+
+@media (max-width:991px) {
+    .guide p,.topbar,.verticalmenu ul{
+        padding: 40px;
+    }
+}

@@ -1,0 +1,431 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.topbar p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.topbar header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	z-index: 999;
+}
+
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+	height: 6rem;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    padding: 20px 100px;
+}
+
+.navbar a img{
+    width: 65px;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: optima;
+    position: relative;
+    z-index: -1;
+}
+
+.title h1{
+    font-size: 7vw;
+    line-height: 1em;
+}
+
+.title h2{
+    font-size: xx-large;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-family: optima;
+}
+.summary{
+    font-size: xx-large;
+    margin-top: 15px;
+}
+.title h3{
+    font-size: x-large;
+    letter-spacing: 0.1vw;
+    margin-top: 100px;
+}
+
+.christmas{
+    background-color: #feafaf;
+    border-radius: 35px;
+    min-height: 95vh;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.christmas h4{
+    left: 53%;
+    margin-top: 144px;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 60px;
+    position: absolute;
+}
+.christmas h5{
+    width: 28%;
+    font-family: optima;
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 24px;
+    position: absolute;
+    left: 53%;
+    margin-top: 224px;
+}
+.christmas p{
+    width: 35%;
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+    position: absolute;
+    left: 53%;
+    margin-top: 354px;
+}
+.p2{
+    width: 35%;
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+    position: absolute;
+    left: 53%;
+    margin-top: 554px;
+}
+.float{
+    margin-top: 120px;
+    width: 700px;
+    padding-left: 50px;
+    padding-top: 40px;
+    display: flex;
+    position: relative;
+    margin-right: 14px;
+  }
+
+.float img{
+    border-radius: 35px;
+}
+  .float p{
+    margin-left: 10px;
+  }
+
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: #feafaf;
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .active, .dot:hover {
+    background-color: #feafaf;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+
+
+.highlight{
+    min-height: 70vh;
+}
+.highlight h4{
+    margin-top: 90px;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.r1card, .r2card{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.r1card{
+    margin-bottom: 84px;
+}
+.c1, .c2, .c3,.c4{
+    width: 50%;
+    display: flex;
+    box-shadow: 0px 4px 8px 0px  #feafaf;
+    border-radius: 35px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+.c1:hover,.c2:hover, .c3:hover, .c4:hover{
+    box-shadow: 0px 6px 11px 0px  #feafaf;
+}
+.avatar{
+    background-image: url(assest/avatar.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: 120%;
+    border-radius: 35px;
+    background-repeat: no-repeat;
+}
+.name{
+    margin-top: 6%;
+    height: 60px;
+    font-size: x-large;
+}
+.detail{
+    margin-bottom: 10px;
+    font-size: large;
+}
+.text1{
+    margin-left: 14px;
+    font-family: optima;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.link:hover{
+    font-size: larger;
+    transition: 0.4s;
+}
+.Expedition{
+    background-image: url(assest/Expedition.jpg);
+    width: 330px;
+    height: 200px;
+    background-size: 120%;
+    border-radius: 35px;
+    background-repeat: no-repeat;
+}
+.Remy{
+    background-image: url(assest/remy.jpg);
+    width: 330px;
+    height: 200px;
+    background-size: 120%;
+    border-radius: 35px;
+    background-repeat: no-repeat;
+}
+.rock{
+    background-image: url(assest/rock.jpg);
+    width: 330px;
+    height: 200px;
+    background-size: 120%;
+    border-radius: 35px;
+    background-repeat: no-repeat;
+}
+
+
+.tobe{
+    min-height: 53vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.tobe h4{
+    margin-top: 90px;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.moredisney{
+    display: flex;
+    justify-content: space-between;
+}
+.orlando{
+  background-image: url(assest/sh.jpg);
+  width: 330px;
+  height: 330px;
+  background-position: center;
+  background-size: cover;
+  transition: .3s ease-in-out;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.orlando:hover{
+  background-size: 130%;
+}
+.orlando h5{
+  text-align: center;
+  margin-top: 50%;
+  font-family: optima;
+  font-size: xx-large;
+  color: white;
+}
+.orlando h5:hover{
+    color: #feafaf;
+}
+.orlando a{
+  text-decoration: none;
+}
+
+.paris{
+    background-image: url(assest/parisdisney.jpg);
+    width: 330px;
+    height: 330px;
+    background-position: center;
+    background-size: cover;
+    transition: .3s ease-in-out;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+.paris:hover{
+    background-size: 230%;
+}
+.paris h5{
+    text-align: center;
+    margin-top: 50%;
+    font-family: optima;
+    font-size: xx-large;
+    color: white;
+}
+.tokyo{
+    text-align: center;
+    background-image: url(assest/tokyodisney.jpg);
+    width: 330px;
+    height: 330px;
+    background-position: center;
+    background-size: cover;
+    transition: .3s ease-in-out;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+.tokyo:hover{
+    background-size: 230%;
+}
+.tokyo h5{
+    text-align: center;
+    margin-top: 50%;
+    font-family: optima;
+    font-size: xx-large;
+    color: white;
+}
+.cali{
+    text-align: center;
+    background-image: url(assest/calidisney.jpg);
+    width: 330px;
+    height: 330px;
+    background-position: center;
+    background-size: cover;
+    transition: .3s ease-in-out;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+.cali:hover{
+    background-size: 180%;
+}
+.cali h5{
+    text-align: center;
+    margin-top: 50%;
+    font-family: optima;
+    font-size: xx-large;
+    color: white;
+}
+
+
+
+
+
+.ending{
+    text-align: center;
+      height: 30vh;
+      background-color:  #feafaf;
+      font-family: optima;
+      padding-top: 50px;
+    margin-top: 100px;
+  }
+  
+  .ending h5{
+      font-size: xx-large;
+      color: #fff;
+      padding-bottom: 10px;
+  }
+  
+  .ending a{
+      text-decoration: none;
+      color: #fff;
+      padding-bottom: 15px;
+      font-size: larger;
+  }
+  
+  .ending p{
+      padding-top: 30px;
+      color: #fff;
+  
+  }
+  
+  .ending p1{
+      color: #fff;
+  }
+
+@media (max-width:991px) {
+    .guide p,.topbar,.verticalmenu ul{
+        padding: 40px;
+    }
+}
