@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: optima;
+}
+
+.pimg1{
+    background-image: url(asset/airlines.jpg);
+    min-height: 100vh;
+
+}
+.pimg1 h4{
+    padding-top: 25%;
+    bottom: 50%;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.pimg2{
+    background-image: url(asset/sh1.jpg);
+    min-height: 60vh;
+}
+.pimg3{
+    background-image: url(asset/yunnan.jpg);
+    min-height: 90vh;
+}
+.pimg4{
+    background-image: url(asset/jeju1.jpg);
+    min-height: 60vh;
+}
+.pimg1, .pimg2, .pimg3,.pimg4{
+    position: relative;
+    opacity: ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.introtome{
+    width: 45%;
+    margin-right: 44px;
+}
+.light{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 50vh;
+}
+.light h2{
+    margin-top: 10%;
+    font-size: x-large;
+}
+.light h4{
+    font-family: optima;
+    font-size: 2.4vw;
+    padding-bottom: 10px;
+    padding-top: 8px;
+}
+.light p{
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+}
+.map{
+    margin-left: 44px;
+}
+@media screen and (max-width: 1166px) {
+    .light p {
+      font-size: small;
+    }
+    .mapp{
+        width: 300px;
+        height: 300px;
+    }
+  }
+
+.dark{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 30vh;
+}
+.dark h2{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 20px;
+}
+.dark h4{
+    font-family: optima;
+    font-size: 2.4vw;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    text-align: center;
+}
+.dark p{
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+}
+@media screen and (max-width: 1166px) {
+    .dark p {
+      font-size: small;
+    }
+  }
+
+.pimg2 h4{
+    bottom: 50%;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 60px;
+}
+.pimg3 h4{
+    padding-top: 20%;
+    bottom: 50%;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 60px;
+    text-align: center;
+    color: white;
+}
+.dark3 h4{
+    font-family: optima;
+    font-size: 2.4vw;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+
+.ending{
+    text-align: center;
+      height: 100%;
+      background-color: #8f89aa;
+      font-family: optima;
+      padding-top: 30px;
+  }
+  
+  .ending h5{
+      font-size: xx-large;
+      color: #fff;
+      padding-bottom: 10px;
+      padding-top: 20px;
+  }
+  
+  .ending a{
+      text-decoration: none;
+      color: #fff;
+      padding-bottom: 30px;
+      font-size: larger;
+  }
+  
+  .ending p{
+      padding-top: 30px;
+      color: #fff;
+  
+  }
+  
+  .ending p1{
+      color: #fff;
+  }

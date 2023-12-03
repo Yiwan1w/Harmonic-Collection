@@ -345,23 +345,23 @@
 
 .ending{
     text-align: center;
-      height: 30vh;
+      height: 100%;
       background-color: #fbbaa8;
       font-family: optima;
-      padding-top: 20px;
-    margin-top: 50px;
+      padding-top: 30px;
   }
   
   .ending h5{
       font-size: xx-large;
       color: #fff;
       padding-bottom: 10px;
+      padding-top: 20px;
   }
   
   .ending a{
       text-decoration: none;
       color: #fff;
-      padding-bottom: 15px;
+      padding-bottom: 30px;
       font-size: larger;
   }
   
@@ -373,14 +373,12 @@
   
   .ending p1{
       color: #fff;
+      margin-bottom: 8px;
   }
-
+  
+  
   @media (max-width:991px) {
     .guide p,.topbar,.verticalmenu ul{
         padding: 40px;
     }
-}
-.f_r{
-	display: flex;
-	flex-direction: row;
-}
+  }

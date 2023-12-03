@@ -148,13 +148,12 @@ input[name="r"]{
     width: 65px;
 }
 
-.cardstitle{
-    margin-top: 100px;
-    margin-bottom: 50px;
+.cardstitle h4, .timelinetitle h4{
+    margin-top: 90px;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 40px;
     text-align: center;
-    font-family: Optima;
-    font-size: large;
-    font-weight: 300;
 }
 
 .cards{
@@ -568,6 +567,17 @@ input[name="r"]{
     transform: rotatey(0deg);
   }
 
+  .citylist{
+    margin-top: 10px;
+  }
+  .citylist a{
+    text-decoration: none;
+    color: white;
+  }
+  .citylist a:hover{
+    font-size: larger;
+    transition: 0.4s;
+  }
   .timelinetitle{
     margin-top: 100px;
     margin-bottom: 170px;
@@ -651,12 +661,12 @@ input[name="r"]{
 
 .space{
     background-color: transparent;
-    height: 10vh;
+    height: 15vh;
 }
 
 .ending{
   text-align: center;
-    height: 30vh;
+    height: 100%;
     background-color: #8f89aa;
     font-family: optima;
     padding-top: 30px;
@@ -666,12 +676,13 @@ input[name="r"]{
     font-size: xx-large;
     color: #fff;
     padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .ending a{
     text-decoration: none;
     color: #fff;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     font-size: larger;
 }
 
@@ -683,6 +694,7 @@ input[name="r"]{
 
 .ending p1{
     color: #fff;
+    margin-bottom: 8px;
 }
 
 

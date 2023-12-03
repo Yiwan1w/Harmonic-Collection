@@ -135,6 +135,7 @@
     padding-top: 10px;
     padding-right: 100px;
 	margin-top: -150px;
+
 }
 
 .text{
@@ -223,3 +224,40 @@
 	display: flex;
 	flex-direction: row;
 }
+
+
+
+
+.ending{
+    text-align: center;
+      height: 100%;
+      background-color: #bce3ff;
+      font-family: optima;
+      padding-top: 30px;
+  }
+  
+  .ending h5{
+      font-size: xx-large;
+      color: #fff;
+      padding-bottom: 10px;
+      padding-top: 20px;
+  }
+  
+  .ending a{
+      text-decoration: none;
+      color: #fff;
+      padding-bottom: 30px;
+      font-size: larger;
+  }
+  
+  .ending p{
+      padding-top: 30px;
+      color: #fff;
+  
+  }
+  
+  .ending p1{
+      color: #fff;
+      margin-bottom: 8px;
+  }
+  

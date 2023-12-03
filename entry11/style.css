@@ -308,27 +308,29 @@
     align-items: center;
     z-index: 2;
 }
-
+.imagewall{
+    min-height: 60vh;
+}
 
 .ending{
     text-align: center;
-      height: 30vh;
-      background-color:  bisque;
+      height: 100%;
+      background-color: bisque;
       font-family: optima;
-      padding-top: 50px;
-    margin-top: 100px;
+      padding-top: 30px;
   }
   
   .ending h5{
       font-size: xx-large;
       color: #fff;
       padding-bottom: 10px;
+      padding-top: 20px;
   }
   
   .ending a{
       text-decoration: none;
       color: #fff;
-      padding-bottom: 15px;
+      padding-bottom: 30px;
       font-size: larger;
   }
   
@@ -340,10 +342,12 @@
   
   .ending p1{
       color: #fff;
+      margin-bottom: 8px;
   }
-
-@media (max-width:991px) {
+  
+  
+  @media (max-width:991px) {
     .guide p,.topbar,.verticalmenu ul{
         padding: 40px;
     }
-}
+  }

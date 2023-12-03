@@ -320,23 +320,23 @@ Style the buttons that are used to open and close the accordion panel */
 
   .ending{
     text-align: center;
-      height: 30vh;
-      background-color:   #bce4a5;
+      height: 100%;
+      background-color: #bce4a5;
       font-family: optima;
-      padding-top: 50px;
-    margin-top: 30px;
+      padding-top: 30px;
   }
   
   .ending h5{
       font-size: xx-large;
       color: #fff;
       padding-bottom: 10px;
+      padding-top: 20px;
   }
   
   .ending a{
       text-decoration: none;
       color: #fff;
-      padding-bottom: 15px;
+      padding-bottom: 30px;
       font-size: larger;
   }
   
@@ -348,10 +348,12 @@ Style the buttons that are used to open and close the accordion panel */
   
   .ending p1{
       color: #fff;
+      margin-bottom: 8px;
   }
-
-@media (max-width:991px) {
+  
+  
+  @media (max-width:991px) {
     .guide p,.topbar,.verticalmenu ul{
         padding: 40px;
     }
-}
+  }
