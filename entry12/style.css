@@ -360,7 +360,7 @@
     justify-content: space-between;
 }
 .orlando{
-  background-image: url(assets/parisdisney.jpg);
+  background-image: url(assets/WechatIMG3378.jpg);
   width: 330px;
   height: 330px;
   background-position: center;
@@ -434,7 +434,7 @@
     background-position: center;
     background-size: cover;
     transition: .3s ease-in-out;
-    background-size: 150%;
+    background-size: 190%;
     background-repeat: no-repeat;
 }
 .cali:hover{
@@ -485,5 +485,169 @@
 @media (max-width:991px) {
   .guide p,.topbar,.verticalmenu ul{
       padding: 40px;
+  }
+}
+
+@media (max-width:1230px) {
+  .pooh1{
+    left: 13%;
+    position: absolute;
+    width: 360px;
+    margin-top: 70px;
+}
+}
+@media (max-width:1165px) {
+  .pupu{
+    min-height: 80vh;
+  }
+  .pooh1{
+    left: 10%;
+    position: absolute;
+    width: 360px;
+    margin-top: 50px;
+}
+}
+@media (max-width:994px) {
+  .pupu{
+    min-height: 75vh;
+  }
+  .pooh1{
+    left: 8%;
+    position: absolute;
+    width: 330px;
+    margin-top: 50px;
+}
+.pupu h4{
+  margin-top: 90px;
+  font-family: optima;
+  font-size: 3vw;
+  padding-bottom: 40px;
+  position: absolute;
+  right: 13%;
+}
+.pupu h5{
+  font-family: optima;
+  font-size: 40px;
+  font-weight: 300;
+  position: absolute;
+  right: 13%;
+  margin-top: 144px;
+}
+.pupu p{
+  font-family: optima;
+  font-size: medium;
+  line-height: 30px;
+  font-weight: 50;
+  position: absolute;
+  right: 13%;
+  margin-top: 204px;
+  text-align: right;
+  width: 40%;
+}
+.pooh2{
+  position: absolute;
+  border-radius: 35px;
+  right: 13%;
+  width: 40%;
+  margin-top: 334px;
+}
+}
+@media (max-width:839px) {
+  .pupu{
+    min-height: 65vh;
+  }
+  .pooh1{
+    left: 6%;
+    position: absolute;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.pooh2{
+  position: absolute;
+  border-radius: 35px;
+  right: 13%;
+  width: 35%;
+  margin-top: 354px;
+}
+}
+@media (max-width:663px) {
+  .pupu{
+    min-height: 55vh;
+  }
+  .pooh1{
+    left: 4%;
+    position: absolute;
+    width: 280px;
+    margin-top: 30px;
+}
+.pupu h5{
+  font-family: optima;
+  font-size: 36px;
+  font-weight: 300;
+  position: absolute;
+  right: 13%;
+  margin-top: 124px;
+}
+.pupu p{
+  font-family: optima;
+  font-size: medium;
+  line-height: 25px;
+  font-weight: 50;
+  position: absolute;
+  right: 13%;
+  margin-top: 174px;
+  text-align: right;
+  width: 40%;
+}
+.pooh2{
+  position: absolute;
+  border-radius: 35px;
+  right: 13%;
+  width: 35%;
+  margin-top: 334px;
+}
+.float{
+  min-height: 60vh;
+}
+}
+
+
+@media screen and (max-width: 1046px) {
+
+  .orlando,.tokyo,.paris,.cali{
+      background-size: 180%;
+      width: 240px;
+      height: 240px;
+  }
+  .orlando:hover{
+      background-size: 210%;
+    }
+
+  .tokyo h5, .cali h5, .orlando h5, .paris h5{
+      text-align: center;
+      margin-top: 50%;
+      font-family: optima;
+      font-size: x-large;
+      color: white;
+  }
+}
+@media screen and (max-width: 733px) {
+  .moredisney {
+      padding: 40px;
+    display: inline-block;
+   margin-left: 20%;
+   margin-bottom: 60px;
+  }
+  .tobe h4{
+      margin-top: 90px;
+      font-family: optima;
+      font-size: 3.5vw;
+      padding-bottom: 20px;
+      text-align: center;
+  }
+  .orlando,.tokyo,.paris,.cali{
+      margin-top: 24px;
+  
   }
 }

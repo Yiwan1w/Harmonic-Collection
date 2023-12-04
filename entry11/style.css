@@ -100,8 +100,6 @@
 }
 .qdhsly p{
     font-size: larger;
-    margin-left: 200px;
-    margin-right: 200px;
     margin-bottom: 20px;
     font-family: optima;
     text-align: center;
@@ -110,8 +108,8 @@
 .qdhs{
     display: flex;
     align-items: center;
-    margin-right: 280px;
-    margin-left: 280px;
+    margin-right: 40%;
+    margin-left: 22%;
 }
 .qdhs img{
     width: 400px;
@@ -142,18 +140,19 @@
     font-size: 3.5vw;
     position: absolute;
     z-index: 1;
-    margin-left: 80px;
-    margin-top: 70px;
+    margin-left: 5%;
+    margin-top: 8%;
 }
 .arrival img{
     position: absolute;
     width: 60%;
+    display: flex;
     height: auto;
     margin-top: 40px;
-    margin-left: 460px;
+    margin-left: 30%;
 }
 .texta1{
-    margin-top: 270px;
+    margin-top: 18%;
     margin-bottom: 24px;
 }
 .texta1 p{
@@ -161,7 +160,7 @@
     line-height: 30px;
     width: 23%;
     font-family: optima;
-    margin-left: 80px;
+    margin-left: 5%;
 }
 .link1{
     text-decoration: none;
@@ -169,14 +168,76 @@
     font-family: optima;
     z-index: 1px;
     color: black;
-    margin-left: 80px;
+    margin-left: 5%;
 }
 .link1:hover{
     font-size: x-large;
     transition: 0.1s;
   }
   
-
+@media screen and (max-width:991px) {
+    .qdhs{
+        display: block;
+        align-items: center;
+    }
+    .qdhs img{
+        width: 300px;
+        height: auto;
+    }
+    .a1{
+        background-color: bisque;
+        margin-right: 100px;
+        margin-left: 100px;
+        min-height: 77vh;
+        border-radius: 35px;
+        margin-bottom: 44px;
+    }
+    .arrival{
+        position: relative;
+    }
+    .arrival h4{
+        font-family: optima;
+        font-size: 3.5vw;
+        position: relative;
+        z-index: 1;
+        padding-top: 5%;
+        text-align: center;
+    }
+    .arrival img{
+        position: relative;
+        width: 80%;
+        display: flex;
+        height: auto;
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+    .texta1{
+        margin-top: 5%;
+        margin-bottom: 24px;
+    }
+    .texta1 p{
+        margin-left: 10%;
+        font-size: medium;
+        line-height: 30px;
+        width: 80%;
+        
+        font-family: optima;
+       
+    }
+    .link1{
+        text-decoration: none;
+        font-size: larger;
+        font-family: optima;
+        z-index: 1px;
+        color: black;
+        margin-left: 10%;
+    }
+    .link1:hover{
+        font-size: x-large;
+        transition: 0.1s;
+      }
+      
+}
 .classtime{
     padding-left: 130px;
     padding-right: 100px;
@@ -185,7 +246,7 @@
 }
 .container {
     position: relative;
-    width: 700px;
+    width: 50%;
   }
   
 .mySlides {
@@ -264,10 +325,10 @@
     width: 36%;
     font-family: optima;
     position: absolute;
-    margin-left: 730px;
+    margin-left: 45%;
 }
 .textclass h4{
-    margin-top: 90px;
+    margin-top: 13%;
     font-family: optima;
     font-size: 3.5vw;
     padding-bottom: 20px;
@@ -284,14 +345,53 @@
     line-height: 30px;
     font-weight: 50;
 }
+  
+@media screen and (max-width:991px) {
+.container {
+        position: relative;
+        width: 100%;
+      }
+      .classtimewhole{
+        display: block;
+    }
+.textclass{
+    width: 97%;
+    font-family: optima;
+    position: relative;
+    margin-left: 1%;
+}
+.textclass h4{
+    margin-top: 3%;
+    font-family: optima;
+    font-size: 3.5vw;
+    padding-bottom: 3%;
+}
+.textclass h5{
+    font-family: optima;
+    font-size: 37px;
+    font-weight: 300;
+    padding-bottom: 3%;
+}
+.textclass p{
+    font-family: optima;
+    font-size: medium;
+    line-height: 30px;
+    font-weight: 50;
+    padding-bottom: 10%;
+}
+
+}
+
 .afterclass{
-    display: flex;
+    display: block;
 }
 .horizontalimg{
+    
+    width: 80%;
     border-radius: 35px;
     z-index: 1;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 20%;
     overflow: auto;
     white-space: nowrap;
 }
@@ -300,8 +400,8 @@
     width: 50%;
 }
 .aftertitle{
-    padding-left: 100px;
-    margin-top: 100px;
+    margin-bottom: 2%;
+    margin-top: 6%;
     font-family: optima;
     font-size: 3.5vw;
     text-align: center;
@@ -309,7 +409,8 @@
     z-index: 2;
 }
 .imagewall{
-    min-height: 60vh;
+    min-height: 100%;
+    padding-bottom: 10%;
 }
 
 .ending{

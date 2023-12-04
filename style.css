@@ -526,10 +526,10 @@ input[name="r"]{
 
   .cover5 {
     border-style: solid;
-    border-color: #edbee4;
+    border-color: bisque;
     border-width: 12px;
     transform: rotatey(0deg);
-    color: #edbee4;
+    color: bisque;
   }
 
   .covertext5{
@@ -550,7 +550,7 @@ input[name="r"]{
   }
 
   .back5 {
-    background-color: #edbee4;
+    background-color: bisque;
     transform: rotatey(-180deg);
     color: white;
   }
