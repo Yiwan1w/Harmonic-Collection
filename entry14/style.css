@@ -14,7 +14,7 @@
     padding-top: 25%;
     bottom: 50%;
     font-family: optima;
-    font-size: 3.5vw;
+    font-size: 80px;
     padding-bottom: 60px;
     text-align: center;
 }
@@ -77,6 +77,24 @@
         height: 300px;
     }
   }
+@media screen and (max-width: 831px){
+   .light{
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+   } 
+   .introtome{
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+}
+.map{
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    left: 50%;
+}
+}
 
 .dark{
     padding-top: 20px;
@@ -107,25 +125,30 @@
       font-size: small;
     }
   }
-
+ @media screen and (max-width: 831px){
+    .dark{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+ }
 .pimg2 h4{
     bottom: 50%;
     font-family: optima;
-    font-size: 3.5vw;
+    font-size: 30px;
     padding-bottom: 60px;
 }
 .pimg3 h4{
     padding-top: 20%;
     bottom: 50%;
     font-family: optima;
-    font-size: 3.5vw;
+    font-size: 60px;
     padding-bottom: 60px;
     text-align: center;
     color: white;
 }
 .dark3 h4{
     font-family: optima;
-    font-size: 2.4vw;
+    font-size: 20px;
     padding-bottom: 10px;
     padding-top: 8px;
     text-align: center;
